@@ -1,0 +1,82 @@
+.btn {
+    background-color: #ffffff3d;
+    border: none;
+    border-radius: .5rem;
+    width: 150px;
+    display: flex;
+    gap: .5rem;
+    margin-top: 10px;
+    z-index: 9999999;
+}
+.btn:hover {
+    background-color: #c9248b;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerForFields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+body {
+    background-color: #CD519D;
+}
+
+.box {
+    background-color: lightgray;
+    border: 1px solid;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid;
+}
+
+.containerForTask {
+    display: flex;
+    gap: 1rem;
+}
+.name {
+    width: 120px;
+    border: 1px solid blue;
+}
+
+.divForSubTask {
+    display: flex;
+    gap: .5rem;
+}
+
+.divForTask {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.divForTextArea {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.divForDiv {
+    display: flex;
+    border: 1px solid red;
+    padding: .5rem;
+}
+.naslov {
+    background-color: transparent;
+    border: none;
+    max-height: 20px;
+
+}
+.divForNaslov {
+    display: flex;
+    /* flex-direction: row; */
+    gap: .5rem;
+}
